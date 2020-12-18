@@ -74,7 +74,9 @@ h6 {
   font-weight: 400 !important; }
 
 body {
-  background-color: rgba(10, 25, 47, 0.85); }
+  background-color: rgba(10, 25, 47, 0.85);
+  max-width: 100vw !important;
+  overflow-x: hidden !important; }
 
 a,
 a:hover {
@@ -140,7 +142,7 @@ a:hover {
     display: none; } }
 
 @media (max-width: 768px) {
-  .navbar-degustar {
+  .navbar-portfolio {
     padding: 10px; }
   #user-icon {
     display: none; }
@@ -152,6 +154,7 @@ a:hover {
     display: none; }
   .navbar-toggle-menu {
     display: flex;
+    width: 30px;
     align-items: center; }
   .nav-content {
     display: flex;
