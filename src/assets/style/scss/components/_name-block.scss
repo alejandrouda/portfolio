@@ -1,0 +1,20 @@
+.name-block {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  height: 300px;
+  padding: calc(((100vh - 70px) - 300px) / 2) 0px;
+  h1 {
+    color: $white;
+    font-family: $headers-font;
+  }
+  h4 {
+    color: $white;
+  }
+  p {
+    color: $secondary-color;
+  }
+  a {
+    color: $primary-color;
+  }
+}

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Poppins:wght@0, 500; 0, 600&family=Roboto:wght@0,500;0,600&display=swap");
+h1 {
+  font-size: 56px !important;
+  font-weight: bold; }
+
 h2 {
   font-size: 40px !important;
   font-weight: 600 !important; }
@@ -167,6 +171,22 @@ a:hover {
 @media (max-width: 375px) {
   .nav-icons {
     padding-left: 40%; } }
+
+.name-block {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  height: 300px;
+  padding: calc(((100vh - 70px) - 300px) / 2) 0px; }
+  .name-block h1 {
+    color: #fbfbfb;
+    font-family: "Open Sans", "sans-serif"; }
+  .name-block h4 {
+    color: #fbfbfb; }
+  .name-block p {
+    color: #bac5e1; }
+  .name-block a {
+    color: #64ffda; }
 
 
 /*# sourceMappingURL=/css.aba9ecc8.css.map */
