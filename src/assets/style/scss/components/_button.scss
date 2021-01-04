@@ -1,0 +1,16 @@
+.btn-box {
+  margin-top: 50px;
+}
+
+.main-btn {
+  border: 2px solid $primary-color;
+  color: $primary-color;
+  padding: 14px 85px;
+  border-radius: 5px;
+  font-family: $btn-font;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+}

@@ -15,5 +15,8 @@
     "node-sass-install": "^1.0.2",
     "parcel": "^1.12.4",
     "sass": "^1.30.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
   }
 }

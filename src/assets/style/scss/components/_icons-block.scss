@@ -1,0 +1,25 @@
+.icons-position {
+  width: 25px;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+
+.icons-block {
+  color: $secondary-color;
+  font-size: 25px;
+  height: 400px;
+  padding-top: calc(100vh - 400px);
+}
+
+.socialmedia-icon {
+  padding-bottom: 25px;
+}
+
+.vertical-line {
+  border-color: $secondary-color;
+  border-left: solid 1px;
+  height: 120px;
+  margin-top: 25px;
+}

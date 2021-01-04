@@ -2,9 +2,14 @@ body {
   background-color: $background-color;
   max-width: 100vw !important;
   overflow-x: hidden !important;
+  margin: 0px;
 }
 
 a,
 a:hover {
   text-decoration: none !important;
+}
+
+.landing-page {
+  height: 100vh;
 }
