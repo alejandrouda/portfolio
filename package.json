@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass src/assets/style/scss/ -o src/assets/style/css/"
+    "scss": "node-sass src/assets/style/scss/ -o src/assets/style/css/",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Alejandro Udaquiola",
   "license": "ISC",
