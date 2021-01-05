@@ -209,7 +209,9 @@ a:hover {
 
 @media (max-width: 768px) {
   .icons-position {
-    display: none; } }
+    display: none; }
+  .btn-box {
+    margin-top: 70px; } }
 
 .icons-position {
   width: 25px; }
