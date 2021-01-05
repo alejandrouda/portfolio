@@ -281,14 +281,14 @@ a:hover {
     width: 700px; } }
 
 @media (max-width: 375px) {
-  .ilustration img {
-    width: 342px;
-    padding-top: 20px; }
+  .ilustration {
+    padding-top: 50px; }
+    .ilustration img {
+      width: 342px; }
   .description-content {
     width: 100%; }
   .description {
-    padding-left: 10px;
-    padding-right: 10px; }
+    padding: 30px 10px; }
     .description h1 {
       font-size: 28px !important; }
     .description p {

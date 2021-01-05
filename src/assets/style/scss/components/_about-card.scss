@@ -34,9 +34,9 @@
 
 @media (max-width: 375px) {
   .ilustration {
+    padding-top: 50px;
     img {
       width: 342px;
-      padding-top: 20px;
     }
   }
   .description-content {
@@ -44,8 +44,7 @@
   }
 
   .description {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 30px 10px;
     h1 {
       font-size: 28px !important;
     }
