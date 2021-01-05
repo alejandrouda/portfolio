@@ -360,5 +360,43 @@ a:hover {
 .third-part {
   padding-top: 30px; }
 
+@media (max-width: 960px) {
+  .skills-card {
+    display: block;
+    width: fit-content;
+    padding-bottom: 50px;
+    height: fit-content; }
+  .single-card {
+    width: 100%;
+    padding: 0px !important; }
+  .skills-separate {
+    border-left: none;
+    height: 0;
+    border-top: solid 1px rgba(70, 70, 70, 0.1);
+    width: 100%;
+    margin-top: 40px !important; }
+  .skills-content {
+    padding: 0 20px; } }
+
+@media (max-width: 710px) {
+  .skills-card {
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
+    height: fit-content;
+    box-shadow: none;
+    margin-top: 20px !important; }
+  .single-card {
+    width: 100%;
+    padding: 0px !important; }
+  .skills-separate {
+    border-left: none;
+    height: 0;
+    border-top: solid 1px rgba(70, 70, 70, 0.1);
+    width: 100%;
+    margin-top: 40px !important; }
+  .skills-content {
+    padding: 0 20px; } }
+
 
 /*# sourceMappingURL=/css.aba9ecc8.css.map */
