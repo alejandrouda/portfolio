@@ -283,12 +283,13 @@ a:hover {
 @media (max-width: 375px) {
   .ilustration img {
     width: 342px;
-    padding-top: 50px; }
+    padding-top: 20px; }
   .description-content {
-    width: 100%;
+    width: 100%; }
+  .description {
     padding-left: 10px;
     padding-right: 10px; }
-  .description h1 {
-    font-size: 28px !important; }
-  .description p {
-    font-size: 15px !important; } }
+    .description h1 {
+      font-size: 28px !important; }
+    .description p {
+      font-size: 15px !important; } }
