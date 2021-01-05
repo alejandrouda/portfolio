@@ -232,7 +232,7 @@ a:hover {
   color: #bac5e1;
   font-size: 25px;
   height: 400px;
-  padding-top: calc(100vh - 484px);
+  padding-top: calc(100vh - 488px);
   padding-left: calc(50px + (58.64px / 2 - 25px / 2)); }
 
 .socialmedia-icon {
@@ -254,3 +254,39 @@ a:hover {
 @media (max-width: 796px) {
   .icons-block {
     display: none; } }
+
+.ilustration {
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center; }
+
+.description {
+  background-color: rgba(10, 25, 47, 0.85);
+  padding: 50px 0;
+  margin-top: -5px; }
+  .description h1 {
+    color: #fbfbfb;
+    font-family: "Lato", "sans-serif";
+    font-size: 42px !important; }
+  .description p {
+    color: #bac5e1;
+    font-family: "Open Sans", "sans-serif"; }
+
+.description-content {
+  width: 660px;
+  margin: 0 auto; }
+
+@media (max-width: 1280px) {
+  .ilustration img {
+    width: 700px; } }
+
+@media (max-width: 375px) {
+  .ilustration img {
+    width: 342px;
+    padding-top: 50px; }
+  .description-content {
+    width: 200px; }
+  .description h1 {
+    font-size: 28px !important; }
+  .description p {
+    font-size: 15px !important; } }
