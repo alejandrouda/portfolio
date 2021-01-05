@@ -36,9 +36,9 @@
 }
 
 @media (max-width: 768px) {
-  // .name-block {
-  //   text-align: left;
-  // }
+  .name-block {
+    padding: calc(((100vh - 100px) - 250px) / 2) 10px !important;
+  }
 
   .icons-position {
     display: none;
