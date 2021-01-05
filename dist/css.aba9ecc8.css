@@ -207,6 +207,10 @@ a:hover {
   display: block;
   margin: 0 auto; }
 
+@media (max-width: 768px) {
+  .icons-position {
+    display: none; } }
+
 .icons-position {
   width: 25px; }
 
