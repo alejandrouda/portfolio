@@ -1,5 +1,4 @@
 body {
-  background-color: $background-color;
   max-width: 100vw !important;
   overflow-x: hidden !important;
   margin: 0px;
@@ -10,6 +9,16 @@ a:hover {
   text-decoration: none !important;
 }
 
-.landing-page {
+.main-landing {
   height: 100vh;
+  background-color: $background-color;
+}
+
+.main-container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.flex-landing {
+  display: flex;
 }

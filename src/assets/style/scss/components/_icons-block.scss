@@ -1,16 +1,13 @@
 .icons-position {
   width: 25px;
-  height: 100vh;
-  position: absolute;
-  top: 0px;
-  left: 40px;
 }
 
 .icons-block {
   color: $secondary-color;
   font-size: 25px;
   height: 400px;
-  padding-top: calc(100vh - 400px);
+  padding-top: calc(100vh - 485px);
+  padding-left: calc(50px + (58.64px / 2 - 25px / 2));
 }
 
 .socialmedia-icon {
@@ -22,4 +19,14 @@
   border-left: solid 1px;
   height: 120px;
   margin-top: 25px;
+}
+
+.line-position {
+  padding-left: calc(21.44px / 2);
+}
+
+@media (max-width: 1376px) {
+  .icons-block {
+    padding-left: calc(40px + (58.64px / 2 - 25px / 2));
+  }
 }
