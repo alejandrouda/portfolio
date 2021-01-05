@@ -267,7 +267,7 @@ a:hover {
   .description h1 {
     color: #fbfbfb;
     font-family: "Lato", "sans-serif";
-    font-size: 42px !important; }
+    font-size: 40px !important; }
   .description p {
     color: #bac5e1;
     font-family: "Open Sans", "sans-serif"; }
@@ -280,15 +280,41 @@ a:hover {
   .ilustration img {
     width: 700px; } }
 
-@media (max-width: 375px) {
-  .ilustration img {
-    width: 342px; }
+@media (max-width: 768px) {
+  .ilustration {
+    padding-top: 70px; }
+    .ilustration img {
+      width: 500px; } }
+
+@media (max-width: 716px) {
   .description-content {
-    width: 200px; }
-  .description h1 {
-    font-size: 32px !important; }
-  .description p {
-    font-size: 15px !important; } }
+    width: 560px; }
+  .description {
+    padding: 30px 10px; }
+    .description h1 {
+      font-size: 32px !important; }
+    .description p {
+      font-size: 16px !important; } }
+
+@media (max-width: 608px) {
+  .description-content {
+    width: 100%; }
+  .description {
+    padding: 30px 10px; } }
+
+@media (max-width: 375px) {
+  .ilustration {
+    padding-top: 50px; }
+    .ilustration img {
+      width: 342px; }
+  .description-content {
+    width: 100%; }
+  .description {
+    padding: 30px 10px; }
+    .description h1 {
+      font-size: 28px !important; }
+    .description p {
+      font-size: 15px !important; } }
 
 
 /*# sourceMappingURL=/css.aba9ecc8.css.map */

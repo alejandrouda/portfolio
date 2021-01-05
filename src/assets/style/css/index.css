@@ -280,6 +280,28 @@ a:hover {
   .ilustration img {
     width: 700px; } }
 
+@media (max-width: 768px) {
+  .ilustration {
+    padding-top: 70px; }
+    .ilustration img {
+      width: 500px; } }
+
+@media (max-width: 716px) {
+  .description-content {
+    width: 560px; }
+  .description {
+    padding: 30px 10px; }
+    .description h1 {
+      font-size: 32px !important; }
+    .description p {
+      font-size: 16px !important; } }
+
+@media (max-width: 608px) {
+  .description-content {
+    width: 100%; }
+  .description {
+    padding: 30px 10px; } }
+
 @media (max-width: 375px) {
   .ilustration {
     padding-top: 50px; }
