@@ -285,7 +285,9 @@ a:hover {
     width: 342px;
     padding-top: 50px; }
   .description-content {
-    width: 200px; }
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px; }
   .description h1 {
     font-size: 28px !important; }
   .description p {
