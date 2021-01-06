@@ -26,6 +26,11 @@ h6 {
   color: #fbfbfb;
   margin-block-start: 0 !important;
   margin-block-end: 0 !important; }
+  .nav-font a:hover {
+    color: #64ffda !important; }
+
+.nav-font:hover {
+  color: #64ffda !important; }
 
 .footer-p-font {
   color: grey;
