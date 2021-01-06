@@ -103,3 +103,9 @@
     padding: 0 20px;
   }
 }
+
+@media (max-width: 524px) {
+  .skills-card-section {
+    padding: 0 !important;
+  }
+}

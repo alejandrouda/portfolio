@@ -271,7 +271,8 @@ a:hover {
 
 .ilustration {
   margin: 0 auto;
-  padding-top: 100px;
+  margin-top: 80px !important;
+  padding-top: 20px;
   text-align: center; }
 
 .description {
@@ -416,6 +417,10 @@ a:hover {
   .skills-content {
     padding: 0 20px; } }
 
+@media (max-width: 524px) {
+  .skills-card-section {
+    padding: 0 !important; } }
+
 .portfolio-section {
   background-color: rgba(10, 25, 47, 0.85);
   padding: 50px 0; }
@@ -463,6 +468,10 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   margin-top: 50px; }
+
+@media (max-width: 1000px) {
+  #portfolio {
+    display: none; } }
 
 
 /*# sourceMappingURL=/css.aba9ecc8.css.map */
