@@ -235,10 +235,11 @@ a:hover {
   padding-top: calc(100vh - 488px);
   padding-left: calc(50px + (58.64px / 2 - 25px / 2)); }
   .icons-block a,
-  .icons-block a:hover,
   .icons-block a:active,
   .icons-block a:focus {
     color: #bac5e1; }
+  .icons-block a:hover {
+    color: #fbfbfb; }
 
 .socialmedia-icon {
   padding-bottom: 25px; }
