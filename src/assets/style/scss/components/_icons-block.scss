@@ -8,6 +8,12 @@
   height: 400px;
   padding-top: calc(100vh - 488px);
   padding-left: calc(50px + (58.64px / 2 - 25px / 2));
+  a,
+  a:hover,
+  a:active,
+  a:focus {
+    color: $secondary-color;
+  }
 }
 
 .socialmedia-icon {
