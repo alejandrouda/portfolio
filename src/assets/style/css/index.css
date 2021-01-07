@@ -497,11 +497,8 @@ a:hover {
     width: 80% !important; }
   .portfolio-content {
     margin: 0 auto;
-    width: 95%;
-    padding: 0;
-    padding-left: 10px; }
-  .portfolio-responsive {
-    justify-content: space-around !important; } }
+    width: 90%;
+    padding: 0; } }
 
 .contact-section {
   margin-top: 50px;
