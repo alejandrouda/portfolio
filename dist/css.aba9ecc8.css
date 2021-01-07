@@ -492,7 +492,7 @@ a:hover {
   .portfolio-section h4 {
     padding-left: 0px; }
   .portfolio-images img {
-    width: 98%; }
+    width: 96%; }
   .mobile-size {
     width: 85% !important; }
   .portfolio-content {
@@ -502,7 +502,12 @@ a:hover {
     padding-left: 8px; } }
 
 .contact-section {
-  margin: 0 auto; }
+  margin-top: 50px;
+  display: block;
+  text-align: center; }
+  .contact-section form {
+    display: inline-block;
+    margin: 0 auto; }
 
 
 /*# sourceMappingURL=/css.aba9ecc8.css.map */
