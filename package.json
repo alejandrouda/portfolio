@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass src/assets/style/scss/ -o src/assets/style/css/",
+    "parcel": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Alejandro Udaquiola",
