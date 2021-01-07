@@ -498,7 +498,11 @@ a:hover {
   .portfolio-content {
     margin: 0 auto;
     width: 95%;
-    padding: 0; } }
+    padding: 0;
+    padding-left: 10px; } }
+
+.contact-section {
+  margin: 0 auto; }
 
 
 /*# sourceMappingURL=/css.aba9ecc8.css.map */
