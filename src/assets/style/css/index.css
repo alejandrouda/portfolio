@@ -487,6 +487,10 @@ a:hover {
 @media (max-width: 500px) {
   .portfolio-section h1 {
     font-size: 28px !important; }
+  .portfolio-section p {
+    padding-left: 0px; }
+  .portfolio-section h4 {
+    padding-left: 0px; }
   .portfolio-images img {
     width: 98%; }
   .mobile-size {
