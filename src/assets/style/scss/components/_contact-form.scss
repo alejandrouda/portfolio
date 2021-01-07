@@ -2,7 +2,6 @@
   margin-top: 50px;
   display: block;
   text-align: center;
-  width: 50%;
   form {
     display: inline-block;
     margin: 0 auto;
@@ -11,4 +10,26 @@
 
 .name-mail {
   display: flex;
+}
+
+.field-input {
+  input {
+    width: 255px;
+    height: 35px;
+    padding-left: 10px;
+    border: solid 2px rgba(10, 25, 47, 0.6);
+  }
+}
+.field-margin {
+  margin-right: 10px;
+}
+
+.field-message {
+  textarea {
+    border: solid 2px rgba(10, 25, 47, 0.6);
+    margin-top: 25px;
+    width: 530px;
+    height: 250px !important;
+    padding: 10px;
+  }
 }

@@ -22,3 +22,9 @@ a:hover {
 .flex-landing {
   display: flex;
 }
+
+::placeholder {
+  color: #95a4cc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
