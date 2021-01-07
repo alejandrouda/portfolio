@@ -351,6 +351,12 @@ a:hover {
     .description p {
       font-size: 15px !important; } }
 
+@media (max-width: 340px) {
+  .ilustration {
+    padding-top: 50px; }
+    .ilustration img {
+      width: 300px; } }
+
 .skills-card-section {
   padding: 0px 40px; }
 
@@ -611,6 +617,37 @@ a:hover {
   .secondary-btn {
     margin-top: 12px;
     width: calc(80vw + 22px) !important; } }
+
+.footer {
+  background-color: rgba(10, 25, 47, 0.85);
+  margin-top: 40px;
+  text-align: center; }
+
+.footer-icons {
+  color: #bac5e1;
+  font-size: 34px;
+  padding: 50px 0 30px 0; }
+  .footer-icons a,
+  .footer-icons a:active,
+  .footer-icons a:focus {
+    color: #bac5e1; }
+  .footer-icons a:hover {
+    color: #fbfbfb; }
+
+.footer-icon {
+  padding: 0 20px; }
+
+.copyright {
+  padding-bottom: 20px; }
+  .copyright p {
+    color: #bac5e1;
+    font-family: "Open Sans", "sans-serif";
+    font-size: 14px; }
+
+@media (max-width: 500px) {
+  .footer-icons {
+    font-size: 30px;
+    padding-bottom: 10px; } }
 
 
 /*# sourceMappingURL=/css.aba9ecc8.css.map */

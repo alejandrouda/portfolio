@@ -88,3 +88,12 @@
     }
   }
 }
+
+@media (max-width: 340px) {
+  .ilustration {
+    padding-top: 50px;
+    img {
+      width: 300px;
+    }
+  }
+}

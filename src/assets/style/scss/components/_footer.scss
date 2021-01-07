@@ -1,0 +1,45 @@
+.footer {
+  background-color: $background-color;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer-icons {
+  color: $secondary-color;
+  font-size: 34px;
+  padding: 50px 0 30px 0;
+  a,
+  a:active,
+  a:focus {
+    color: $secondary-color;
+  }
+  a:hover {
+    color: $white;
+  }
+}
+
+.footer-icon {
+  padding: 0 20px;
+}
+
+.copyright {
+  padding-bottom: 20px;
+  p {
+    color: $secondary-color;
+    font-family: $body-font;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-icons {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-icons {
+    font-size: 26px;
+  }
+}
