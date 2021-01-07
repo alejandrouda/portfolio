@@ -492,19 +492,25 @@ a:hover {
   .portfolio-section h4 {
     padding-left: 0px; }
   .portfolio-images img {
-    width: 90%; }
+    width: 94%; }
   .mobile-size {
     width: 80% !important; }
   .portfolio-content {
     margin: 0 auto;
     width: 95%;
     padding: 0;
-    padding-left: 10px; } }
+    padding-left: 10px; }
+  .portfolio-responsive {
+    justify-content: space-around !important; } }
 
 .contact-section {
   margin-top: 50px;
   display: block;
-  text-align: center; }
+  text-align: center;
+  width: 50%; }
   .contact-section form {
     display: inline-block;
     margin: 0 auto; }
+
+.name-mail {
+  display: flex; }

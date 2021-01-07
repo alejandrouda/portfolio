@@ -105,7 +105,7 @@
 
   .portfolio-images {
     img {
-      width: 92%;
+      width: 94%;
     }
   }
   .mobile-size {
@@ -116,5 +116,9 @@
     width: 95%;
     padding: 0;
     padding-left: 10px;
+  }
+
+  .portfolio-responsive {
+    justify-content: space-around !important;
   }
 }
