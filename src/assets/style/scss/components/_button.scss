@@ -12,6 +12,10 @@
   font-weight: 600;
 }
 
+.main-btn:hover {
+  background-color: rgba(186, 197, 225, 0.1);
+}
+
 .secondary-btn {
   border: none;
   background-color: $background-color;
@@ -24,8 +28,9 @@
   margin-top: 50px;
 }
 
-.main-btn:hover {
-  background-color: rgba(186, 197, 225, 0.1);
+.secondary-btn:hover {
+  background-color: rgba(10, 25, 47, 0.74);
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
