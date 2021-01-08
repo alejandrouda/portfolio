@@ -1,3 +1,5 @@
+// SMOOTH SCROLL
+
 const navLink = document.querySelectorAll(".nav-link");
 
 navLink.forEach(function (element) {
@@ -8,3 +10,16 @@ navLink.forEach(function (element) {
     sectionSelector.scrollIntoView({ behavior: "smooth" });
   });
 });
+
+// RESPONSIVE NAVBAR
+
+const navSlide = () => {
+  const burgerMenu = document.querySelector(".burger-menu");
+  const nav = document.querySelector(".nav-links");
+
+  burgerMenu.addEventListener("click", () => {
+    nav.classList.toggle("nav-active");
+  });
+};
+
+navSlide();

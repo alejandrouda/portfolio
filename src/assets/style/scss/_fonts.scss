@@ -40,12 +40,14 @@ h6 {
   color: $white;
   margin-block-start: 0 !important;
   margin-block-end: 0 !important;
+  transition: 0.5s;
   a:hover {
     color: $primary-color !important;
   }
 }
 .nav-font:hover {
   color: $primary-color !important;
+  transition: 0.5s;
 }
 
 .footer-p-font {
