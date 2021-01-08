@@ -169,7 +169,8 @@ nav {
     height: 2px;
     background-color: #64ffda;
     margin: 5px;
-    margin-right: 0px !important; }
+    margin-right: 0px;
+    transition: all 0.3s ease; }
 
 @media (max-width: 768px) {
   .nav-links {
@@ -187,15 +188,38 @@ nav {
     width: 100vw !important;
     transform: translateX(100%);
     transition: transform 0.5s ease-in; }
-  nav-links li {
+  .nav-links li {
     opacity: 0; }
   .nav-elements {
     width: fit-content; }
   .burger-menu {
-    display: block; } }
+    display: block; }
+  .nav-font {
+    font-size: 18px; } }
+
+@media (max-width: 524px) {
+  nav {
+    padding: 10px; } }
 
 .nav-active {
   transform: translateX(0%); }
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px); }
+  to {
+    opacity: 1;
+    transform: translateX(0px); } }
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 6px); }
+
+.toggle .line2 {
+  opacity: 0; }
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -6px); }
 
 .name-block {
   margin: 0 auto;

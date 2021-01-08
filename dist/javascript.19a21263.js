@@ -134,8 +134,20 @@ navLink.forEach(function (element) {
 var navSlide = function navSlide() {
   var burgerMenu = document.querySelector(".burger-menu");
   var nav = document.querySelector(".nav-links");
+  var navLinks = document.querySelectorAll(".nav-links li");
   burgerMenu.addEventListener("click", function () {
-    nav.classList.toggle("nav-active");
+    // Toggle Nav
+    nav.classList.toggle("nav-active"); // Animate Links
+
+    navLinks.forEach(function (link, index) {
+      if (link.style.animation) {
+        link.style.animation = "";
+      } else {
+        link.style.animation = "navLinkFade 0.5s ease forwards ".concat(index / 7 + 0.5, "s");
+      }
+    }); // Animate burger menu
+
+    burgerMenu.classList.toggle("toggle");
   });
 };
 
@@ -168,7 +180,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44897" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34779" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
