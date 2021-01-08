@@ -3,6 +3,17 @@ body {
   overflow-x: hidden !important;
   margin: 0px;
 }
+
+html {
+  overflow-x: hidden !important;
+}
+
+#wrapper {
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 ul li {
   list-style-type: none;
 }

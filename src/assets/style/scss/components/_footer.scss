@@ -40,6 +40,14 @@
   .footer-icon {
     padding: 0 15px;
   }
+
+  .copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    p {
+      margin-block-end: 0;
+    }
+  }
 }
 
 @media (max-width: 340px) {
