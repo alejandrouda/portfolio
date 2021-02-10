@@ -300,7 +300,7 @@ nav {
 .vertical-line {
   border-color: #bac5e1;
   border-left: solid 1px;
-  height: 114px;
+  height: 111px;
   margin-top: 25px; }
 
 .line-position {
@@ -521,6 +521,13 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-top: 50px; }
+
+.takumi-web img {
+  width: 856px;
+  height: 489px; }
+
+.takumi-mobile img {
+  height: 465px; }
 
 .mobile-size {
   max-width: 282px !important; }
